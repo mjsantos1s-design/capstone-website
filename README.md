@@ -4,18 +4,18 @@
 ## Group Members
 #### - Michael Santos
 #### - Noah Schatz
-#### - First & Last Name
+#### - Vaythan Kandiah
 
-# Title of Website: ____
+# Title of Website: FinFacts
 #### (use in title tag, pretend it's your domain name, do not include https or .com) <- Delete this line
 
 ## Purpose of Website
 This website is for ______ (2-3 sentences)
 
 ## Target Audience
-- Age Group:____
-- Sex: ____
-- Interests: ____
+- Age Group: All ages
+- Sex: Both
+- Interests: School work, research, sharks
 
 Write 2-3 sentences explaining why they would be interested in this product
 
@@ -25,6 +25,10 @@ Write 2-3 sentences explaining why they would be interested in this product
 - Person 2: (Do not assign one person to handle an entire webpage by themselves, you should assign them based on their strengths to a particular task that needs to be done accross the whole website)
 
 ## Website Layout
+
+Sunlit level: Pelagic thresher, bonnethead
+Twilight level: Basking, goblin
+Midnight Level: Viper dogfish, 
 
 ## CSS Themes
 ### Fonts and Colors
