@@ -1,0 +1,31 @@
+/*
+HTML & CSS Capstone
+    Group Assignment
+
+    Home page of _
+    Author: Noah, Vaythan, Michael
+    Date: 11/7/2025
+
+    Filename: stylewili.css
+*/
+
+html {
+    background-color: rgb(29, 65, 93);
+}
+
+/* Page Body Styles */
+body {
+    color: rgb(180, 220, 247);
+    font-family: B
+}
+
+body {
+   background-color: rgb(35, 81, 116);
+   border-left: 3px solid rgba(49, 104, 146, 0.7);
+   border-right: 3px solid rgba(49, 104, 146, 0.7);
+   min-height: 100%;  
+   margin: 0px auto;
+   min-width: 420px;
+   max-width: 1120px;  
+   width: 100%;
+}

@@ -1,0 +1,70 @@
+@font-face {
+   src:url(./font/borel.ttf);
+}
+
+/*
+HTML & CSS Capstone
+    Group Assignment
+
+    Home page of _
+    Author: Noah, Vaythan, Michael
+    Date: 11/5/2025
+
+    Filename: stylelit.css
+*/
+
+html {
+    background-color: rgb(181, 210, 232);
+}
+
+/* Page Body Styles */
+
+header img {
+    display: block;
+    width: 100%;
+}
+
+body {
+   background-color: rgb(228, 243, 255);
+   border-left: 3px solid rgba(184, 211, 235, 0.7);
+   border-right: 3px solid rgba(184, 211, 235, 0.7);
+   min-height: 100%;  
+   margin: 0px auto;
+   min-width: 420px;
+   max-width: 1120px;  
+   width: 100%;
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horiztonalNavigation li {
+   display: block;
+  
+}
+
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
+}
+
+ul {
+   display: flex;
+   justify-content: center;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(149, 179, 201);
+    font-size: 1.1em;
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(37, 85, 121);
+}
+
+footer img {
+    max-width: 3em;
+    height: 1em;
+    text-align: center;
+    background-color: transparent;
+    filter: brightness(0) saturate(100%) invert(18%) sepia(35%) saturate(2758%) hue-rotate(193deg) brightness(88%) contrast(90%);
+}
