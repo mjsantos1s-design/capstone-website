@@ -42,6 +42,25 @@
         
     </video>
 </p>
+
+<div class="survey">
+<div>
+    <label for="nameBox">Name*</label>
+    <input type="text" name="viewerName" value="" id="nameBox" required placeholder="First and Last Name" />
+</div>
+<div>
+    <label name="emailBox">Email*</label>
+    <input type="email" name="viewerEmail" id="emailBox" required placeholder="customer@email.com" pattern="[A-Za-z]{3}" />
+</div>
+<div>
+    <label for="phoneBox">Phone</label>
+    <input type="tel" name="viewerPhone" id="phoneBox" placeholder="(###) ###-####" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+</div>
+<div>
+    <label for="addressbox">Address</label>
+    <input name="custZip" id="addressbox" type="text" placeholder="nnnnn (-nnnn)" pattern="^\d{5}(-\d{4})?$"/>
+</div>
+
 </aside>
 
 </body>

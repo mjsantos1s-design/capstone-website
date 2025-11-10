@@ -25,6 +25,7 @@ body {
    background-color: rgb(228, 243, 255);
    border-left: 3px solid rgba(184, 211, 235, 0.7);
    border-right: 3px solid rgba(184, 211, 235, 0.7);
+   color: rgb(37, 85, 121);
    min-height: 100%;  
    margin: 0px auto;
    min-width: 420px;
@@ -35,18 +36,26 @@ body {
 /* Horizontal Navigation Styles */
 
 nav.horiztonalNavigation li {
-   display: block;
-  
+ 
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav.horizontalNavigation a {
    display: block;
    text-align: center;
+    background-color: rgb(37, 85, 121);
+
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
 }
 
-ul {
-   display: flex;
-   justify-content: center;
+ul li a:hover {
+  background-color: #111111;
 }
 
 /* Footer */
@@ -66,6 +75,47 @@ footer img {
     filter: brightness(0) saturate(100%) invert(18%) sepia(35%) saturate(2758%) hue-rotate(193deg) brightness(88%) contrast(90%);
 }
 
-img {
-    
+div {
+    line-height: 16em;
+}
+
+.bh {
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.bh img {
+    border: 0.5em solid rgb(37, 85, 121);
+    margin-left: 2em;
+    width: 42%;
+    height: 12em;
+}
+
+.bh p {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+.pt {
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.pt img {
+    border: 0.5em solid rgb(37, 85, 121);
+    margin-left: 2em;
+    width: 42%;
+    height: 10em;
+}
+
+.pt p {
+    width: 100%;
+    height: auto;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1em;
 }
