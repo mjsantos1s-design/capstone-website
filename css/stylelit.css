@@ -1,6 +1,3 @@
-@font-face {
-   src:url(./font/borel.ttf);
-}
 
 /*
 HTML & CSS Capstone
@@ -67,4 +64,8 @@ footer img {
     text-align: center;
     background-color: transparent;
     filter: brightness(0) saturate(100%) invert(18%) sepia(35%) saturate(2758%) hue-rotate(193deg) brightness(88%) contrast(90%);
+}
+
+img {
+    
 }

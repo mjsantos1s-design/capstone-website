@@ -9,13 +9,18 @@ HTML & CSS Capstone
     Filename: all.css
 */
 
-html {
-    background-color: rgb(181, 210, 232);
-}
+
 
 /* Page Body Styles */
-body {
-    background-color: rgb(228, 243, 255);
-    font-family: B
+
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+    background-color: rgb(37, 85, 121);
+
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
 }
 

@@ -14,9 +14,15 @@ html {
 }
 
 /* Page Body Styles */
+
+header img {
+    display: block;
+    width: 100%;
+}
+
 body {
     color: rgb(180, 220, 247);
-    font-family: B
+    font-family: url(../font/Borel-Regular.ttf)
 }
 
 body {

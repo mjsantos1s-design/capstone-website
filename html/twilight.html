@@ -15,14 +15,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twilight Zone</title>
     <link href="../css/styletwili.css" rel="stylesheet" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Borel&family=Ranchers&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
         <header>
-        <img src="./png/sunlitHeader.png" alt="Sunlit Zone header" />
+        <img src="../png/twilightHeader.png" alt="Twilight Zone header" />
         <nav class="horizontal" id="topLinks">
     <ul>
+    <li><a href="../index.html">Sunlit</a></li>
     <li><a href="../html/midnight.html">Midnight</a></li>
-    <li><a href="../html/index.html">Twilight</a></li>
     </ul>
         </nav>
     </header>
@@ -32,8 +34,15 @@
             of all time. The clip below shows off
             <cite> The fishes mouth being open.</cite>
         </p>
+        <input type="checkbox" id="rotateVideo" />
+            <label for="rotateVideo"></label>
         <video controls poster="../png/shark.png">
         <source src="../video/TheViperDogfish.mp4" type="video/mp4" />
+        <p><em>To play this video clip, your browser needs to support HTML5</em></p>
+        
+    </video>
+</p>
+</aside>
 
 </body>
 </html>
