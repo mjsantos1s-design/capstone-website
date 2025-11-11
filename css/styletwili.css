@@ -9,6 +9,7 @@ HTML & CSS Capstone
     Filename: stylewili.css
 */
 
+/* This sets a background color */
 html {
     background-color: rgb(29, 65, 93);
 }
@@ -22,6 +23,7 @@ header img {
 
 body {
     color: rgb(180, 220, 247);
+    /* Sets font for body */
     font-family: url(../font/Borel-Regular.ttf)
 }
 
@@ -34,5 +36,41 @@ body {
    min-width: 420px;
    max-width: 1120px;  
    width: 100%;
+   font-size: 1.4em;
+   font-family: Urbanist;
 }
 
+
+fieldset#survey {
+    border: 10em;
+}
+
+fieldset {
+    background-color: rgb(69, 112, 145);
+}
+
+div {
+    width: 15em;
+    height: 6em;
+}
+
+.info {
+    display: block;
+    width: 10.5em;
+    height: auto;
+    margin-left: 2em;
+}
+
+.survey {
+    display: block;
+    width: 10.5em;
+    height: auto;
+    margin-left: 17em;
+    margin-top: 10em;
+}
+
+.input {
+    display: block;
+    width: 10.5em;
+    height: auto;
+}

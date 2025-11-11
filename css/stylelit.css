@@ -31,6 +31,7 @@ body {
    min-width: 420px;
    max-width: 1120px;  
    width: 100%;
+   font-family: Urbanist;
 }
 
 /* Horizontal Navigation Styles */
@@ -48,7 +49,6 @@ nav.horizontalNavigation a {
    display: block;
    text-align: center;
     background-color: rgb(37, 85, 121);
-
     font-size: 1.4em;
     line-height: 1.8em;
     text-align: center;
@@ -110,6 +110,7 @@ div {
     margin-left: 2em;
     width: 42%;
     height: 10em;
+
 }
 
 .pt p {
@@ -119,3 +120,4 @@ div {
     text-align: center;
     line-height: 1em;
 }
+
