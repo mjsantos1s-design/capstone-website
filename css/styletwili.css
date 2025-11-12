@@ -43,6 +43,7 @@ body {
 .column {
   float: left;
   width: 33.33%;
+  height: 380px;
 }
 
 .row:after {
@@ -56,9 +57,33 @@ body {
 }
 
 .left, .right {
-  width: 25%;
+  width: 33.33%;
+  height: 380px;
 }
 
 .middle {
-  width: 50%;
+  width: 33.33%;
+  height: 380px;
+}
+
+textarea {
+    width: 100%;
+    height: 10%;
+}
+
+input[type="submit"] {
+   height: 50px;
+   width: 200px;
+}
+
+input:focus, select:focus, textarea:focus {
+   background-color: rgb(220, 255, 220);
+}
+
+input#name:focus:valid, input#zip:focus:valid, input#phone:focus:valid, input#mail:focus:valid {
+   background: rgb(220, 255, 220) bottom right/contain no-repeat;
+}
+
+input#name:focus:invalid, input#zip:focus:invalid, input#phone:focus:invalid, input#mail:focus:invalid {
+   background: rgb(220, 232, 233) bottom right/contain no-repeat;
 }

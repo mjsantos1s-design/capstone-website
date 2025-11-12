@@ -54,21 +54,60 @@
 <!-- Survey input for information -->
 
 <fieldset class="required">
-    <label>*Required to continue</label>
-<div class="row">
+    <legend>*Required to Continue</legend>
+
+<div class="info">
   <div class="column" style="background-color:#457091ff;">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
+    <p>If you are a minor, please ask a parent for help filling out this form.</p>
+
+    <br><label for="nameBox">Name*</label>
+    <input type="text" name="viewerName" value="" id="nameBox" required placeholder="First and Last Name" /></br>
+
+    <br><label name="emailBox">Email*</label>
+    <input type="email" name="viewerEmail" id="emailBox" required placeholder="customer@email.com" pattern="[A-Za-z]{3}" /></br>
+
+    <br><label for="phoneBox">Phone</label>
+    <input type="tel" name="viewerPhone" id="phoneBox" placeholder="(###) ###-####" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" /></br>
+
+    <br><label for="addressbox">Address</label>
+    <input name="custZip" id="addressbox" placeholder="Enter Address Here" /></br>
+
+    <div id="buttons">
+           <!-- <a herf="../html/midnight.html"> --><input type="submit" value="Submit" /></a>
+            </div>
+
   </div>
+
   <div class="column" style="background-color:#457091ff;">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
+    <p>*Are you a:</p>
+        <br><input value="Student" name="person" type="radio" id="" required>
+        <label for="student">Student</label></br>
+        <br><input name="person" value="Teacher" type="radio">
+        <label for="">Teacher</label></br>
+        <br><input name="person" value="Parent" type="radio">
+        <label for="">Parent</label></br>
+        <br><input value="Curious Person" name="person" type="radio" id="">
+        <label for="">Curious Person</label></br>
+        <br><input value="Shark" name="person" type="radio" id="">
+        <label for="">Shark</label></br>
   </div>
+
   <div class="column" style="background-color:#457091ff;">
-    <h2>Column 3</h2>
-    <p>Some text..</p>
-  </div>
-</div>
+    <div>
+    <br><p>*Where are you?</p></br>  
+        <br><input value="School" name="use" type="radio" id="">
+        <label for="school">School</label></br>
+
+        <br><input value="Work" name="use" type="radio" id="">
+        <label for="work">Work</label></br>
+
+        <br><input value="Home" name="use" type="radio" id="">
+        <label for="Home">Home</label></br>
+    </div>
+
+    <br><p>Anything you'd like to tell the team at Deep Layer Sharks and Facts?</p></br>
+    <textarea name="comments" id="" placeholder="I like your fun shark facts! :D"></textarea>
+</fieldset>
 
 </body>
 </html>
