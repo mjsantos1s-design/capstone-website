@@ -13,6 +13,7 @@
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Defines aspect ratio in portrait mode -->
     <title>Midnight Zone</title>
     <link href="../css/stylemid.css" rel="stylesheet" />
     <link href="./css/reset.css" rel="stylesheet" />
@@ -22,10 +23,71 @@
 <body>
     <header>
     <img src="../png/midnightHeader.jpg" alt="Midnight Zone header" />
+    
     </header>
     <li><a href="../html/twilight.html">Twilight</a></li>
     <p>jfokewkjwfewjokfiwejkfjewok</p>
-    <img src=""
+    <img src="">
     
+    <fieldset class="required">
+    <legend>*Required to continue</legend>
+
+
+<div class="info">
+
+    <p>If you are a minor, please ask a parent for help filling out this form.</p>
+    <!-- Text box for <label "namebox" </label> -->
+    <label for="nameBox">Name*</label>
+    <!-- Text box with place holder "First and Last Name" -->
+    <input type="text" name="viewerName" value="" id="nameBox" required placeholder="First and Last Name" />
+
+    <!-- Text box for <label "emailbox" </label> -->
+    <label name="emailBox">Email*</label>
+    <!-- <input "email" Site info placeholder "customer@email.com" -->
+    <input type="email" name="viewerEmail" id="emailBox" required placeholder="customer@email.com" pattern="[A-Za-z]{3}" />
+
+    <!-- Text  box for <label "phonebox" </label> -->
+    <label for="phoneBox">Phone</label>
+    <!-- <input "tel" with a placeholder "(###) ###-####" -->
+    <input type="tel" name="viewerPhone" id="phoneBox" placeholder="(###) ###-####" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+
+ <!--Text box for <label "addressbox" </label> -->
+    <label for="addressbox">Address</label>
+    <!-- <input "custzip" with a placeholder for "Enter Address Here" /> -->
+    <input name="custZip" id="addressbox" placeholder="Enter Address Here" />
+
+ </div>
+    
+<div class="survey">
+    <!-- Required Student Survey for teachers and person -->
+    <label>*Are you a:</label>
+        <input value="Student" name="person" type="radio" id="">
+        <label for="student">Student</label>
+        <input name="person" value="Teacher" type="radio">
+        <label for="">Teacher</label>
+        <input name="person" value="Parent" type="radio">
+        <label for="">Parent</label>
+<!-- This is a label for inputting information -->
+    
+    <div>
+
+        <input value="School" name="use" type="radio" id="">
+        <label for="school">School</label>
+
+        <input value="Work" name="use" type="radio" id="">
+        <label for="work">Work</label>
+
+        <input value="Home" name="use" type="radio" id="">
+        <label for="Home">Home</label>
+    </div>
+</div>
+<!-- Extra form supporting -->
+<div class="input">
+    <legend>Anything you'd like to tell the team at Deep Layer Sharks and Facts?</legend>
+    <textarea name="comments" id="" placeholder="I like your fun shark facts! :D"></textarea>
+</div>
+</fieldset>
+
+
 </body>
 </html>

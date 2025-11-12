@@ -12,7 +12,7 @@
     Filename: twilight.html
     -->
     <meta charset="UTF-8">
-    <!-- Scales to smaller devices -->
+    <!-- Device Aspect Ratio -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twilight Zone</title>
     <link href="../css/styletwili.css" rel="stylesheet" />
@@ -53,64 +53,22 @@
 
 <!-- Survey input for information -->
 
-<fieldset class="info">
-    <legend>Information</legend>
-
-    <p>If you are a minor, please ask a parent for help filling out this form.</p>
-    <!-- Text box for <label "namebox" </label> -->
-    <label for="nameBox">Name*</label>
-    <input type="text" name="viewerName" value="" id="nameBox" required placeholder="First and Last Name" />
-
-    <!-- Text box for <label "emailbox" </label> -->
-    <label name="emailBox">Email*</label>
-    <!-- <input "email" Site info placeholder "customer@email.com" -->
-    <input type="email" name="viewerEmail" id="emailBox" required placeholder="customer@email.com" pattern="[A-Za-z]{3}" />
-
-    <!-- Text  box for <label "phonebox" </label> -->
-    <label for="phoneBox">Phone</label>
-    <!-- <input "tel" with a placeholder "(###) ###-####" -->
-    <input type="tel" name="viewerPhone" id="phoneBox" placeholder="(###) ###-####" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
-
- <!--Text box for <label "addressbox" </label> -->
-    <label for="addressbox">Address</label>
-    <!-- <input "custzip" with a placeholder for "Enter Address Here" /> -->
-    <input name="custZip" id="addressbox" placeholder="Enter Address Here" />
-
-</fieldset>
-
-<fieldset class="survey">
-    <legend>Survey</legend>
-    <label>*Are you a:</label>
-        <input value="Student" name="person" type="radio" id="">
-        <label for="student">Student</label>
-        <input name="person" value="Teacher" type="radio">
-        <label for="">Teacher</label>
-        <input name="person" value="Parent" type="radio">
-        <label for="">Parent</label>
-
-<!-- This is a label for inputting information -->
-    
-    <div>
-    <legend>*Why are you using our website?</legend>
-
-        <input value="School" name="use" type="radio" id="">
-        <label for="school">School</label>
-
-        <input value="Work" name="use" type="radio" id="">
-        <label for="work">Work</label>
-
-        <input value="Home" name="use" type="radio" id="">
-        <label for="Home">Home</label>
-    </div>
-</fieldset>
-<!-- Extra form supporting -->
-<fieldset class="input">
-    <legend>Anything you'd like to tell the team at Deep Layer Sharks and Facts?</legend>
-    <textarea name="comments" id="" placeholder="I like your fun shark facts! :D"></textarea>
-</fieldset>
-
-
-</aside>
+<fieldset class="required">
+    <label>*Required to continue</label>
+<div class="row">
+  <div class="column" style="background-color:#457091ff;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#457091ff;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#457091ff;">
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+</div>
 
 </body>
 </html>

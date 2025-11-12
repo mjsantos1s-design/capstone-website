@@ -40,37 +40,25 @@ body {
    font-family: Urbanist;
 }
 
-
-fieldset#survey {
-    border: 10em;
+.column {
+  float: left;
+  width: 33.33%;
 }
 
-fieldset {
-    background-color: rgb(69, 112, 145);
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-div {
-    width: 15em;
-    height: 6em;
+.column {
+  float: left;
 }
 
-.info {
-    display: block;
-    width: 10.5em;
-    height: auto;
-    margin-left: 2em;
+.left, .right {
+  width: 25%;
 }
 
-.survey {
-    display: block;
-    width: 10.5em;
-    height: auto;
-    margin-left: 17em;
-    margin-top: 10em;
-}
-
-.input {
-    display: block;
-    width: 10.5em;
-    height: auto;
+.middle {
+  width: 50%;
 }

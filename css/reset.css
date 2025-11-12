@@ -43,13 +43,8 @@ div#deeper {
    height: 13em;
 }
 
-span {
-   float: bottom right;
-   height: 1em;
-}
-
-span p {
-   font-size: 0.11em;
+figure#arrow {
    float: bottom right;
    height: 3em;
+   padding-right: 2em;
 }
