@@ -36,9 +36,8 @@ Midnight Level: Goblin, Greenland, Cookiecutter
 - Font for Paragraphs: Urbanist; Bahiana
 - Background Color: Sunlit #B5D2E8, Twilight #1d415d, Midnight #10293c
 - Font Color: sunlit #193D5A, Twilight #B7DCF7, Midnight #8CFFBE
-- Contrast Ratio: (needs to be 4.5 or higher)
-- Include additional colors such as foreground, or different colors for Headings(1-6), Paragraphs, Anchors/Links, etc.
-- Paragraph Font Size (use em or rem, not pixels)
+- Contrast Ratio: 6.99, 7.42, 8.73
+- Paragraph Font Size: 1.4em
 - Header Font Size (include values for h1-h6, add more font sizes for different sections of your webpage (such as navigation, footer, article, etc.))
 
 ## CSS Ruleset 

@@ -87,3 +87,46 @@ input#name:focus:valid, input#zip:focus:valid, input#phone:focus:valid, input#ma
 input#name:focus:invalid, input#zip:focus:invalid, input#phone:focus:invalid, input#mail:focus:invalid {
    background: rgb(220, 232, 233) bottom right/contain no-repeat;
 }
+
+ul li{
+  font-size: 1.6em;
+  float: top left;
+}
+
+ ul > li > a:visited{
+  color: rgb(180, 220, 247);
+}
+
+footer {
+  background-color: #457091ff;
+  color: rgb(180, 220, 247);
+  font-size: 1.1em;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+
+footer img {
+  background-color: transparent;
+  filter: sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(1.5) contrast(1.2);
+}
+
+.bsp {
+  position: left;
+  height: 50px;
+  height: 100px;
+}
+
+.bs video {
+  position: left;
+  display: block;
+  width: 320px;
+  height: 180px;
+}
+
+.vd video {
+  position: right;
+  display: block;
+  width: 320px;
+  height: 180px;
+}

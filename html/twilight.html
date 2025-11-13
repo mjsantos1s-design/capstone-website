@@ -12,7 +12,7 @@
     Filename: twilight.html
     -->
     <meta charset="UTF-8">
-    <!-- Device Aspect Ratio -->
+    <!-- Device Aspect Ratio (Michael) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twilight Zone</title>
     <link href="../css/styletwili.css" rel="stylesheet" />
@@ -20,50 +20,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Borel&family=Ranchers&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--Header (Michael)-->
         <header>
         <img src="../png/twilightHeader.png" alt="Twilight Zone header" />
         <nav class="horizontal" id="topLinks">
     <ul>
-    <li><a href="../index.html">Rise Level</a></li>
+        <!--Button to go back to the first page (Michael)-->
+    <li><a href="../index.html"><span style='font-size:70px;'>&#8593;</span>Rise Level</a></li>
     </ul>
         </nav>
     </header>
+
+        <!--Basket Shark Video (Noah)-->
+        <div class="bs">
+        <video controls src="../video/baskingshark.mp4" type="video/mp4"></video></div>
+        <figcaption>NOAA Sanctuaries</figcaption>
+
+        <!-- Paragraph explaining the Basking Shark (Noah)-->
+        <div class="bsp"><p><br>The basking shark (Cetorhinus maximus) is the second-largest living shark and fish, after the whale shark.</br><br> It is one of three plankton-eating shark species, along with the whale shark and megamouth shark. Typically, basking sharks reach 7.9 m (26 ft)</br><br> in length, but large individuals have been known to grow more than 10 m (33 ft) long. It is usually greyish-brown, with mottled skin, </br><br> with the inside of the mouth being white in colour. The caudal fin has a strong lateral keel and a crescent shape. Other common names include bone shark, elephant shark, sailfish, and sunfish.</br> </p>
+        </div>
+    
 <aside>
-    <!-- 
-    <p>This is a paragraph explaining the video of the Viper Dogfish </p>
-    -->
+    <div class="vd">
+    <!--This is a paragraph explaining the Viper Dogfish (Vaythan)-->
     <h1>The Viper Dogfish<h1>
-        <p>The Viper Dogfish is the tuffest fish
-            of all time. The clip below shows off
-            <cite> The fishes mouth being open.</cite>
-            <!--
-            <p> Inputs a video of The Viper Dogfish </p>
-            -->
+        <p><br>The Viper Dogfish was first identified in 1986. They are rare deep sea sharks and have been found in the Pacific Ocean off the coasts of Japan, Taiwan and Hawaii.</br><br>They migrate vertically in the ocean. At night, viper dogfish swim at between 300 m to 400 m underwater and during the day they will swim closer to the surface at 150 m.</br>
+            <!--Inputs a video of The Viper Dogfish (Vaythan)-->
         </p>
-        <video controls poster="../png/shark.png">
-        <source src="../video/TheViperDogfish.mp4" type="video/mp4" />
-        <!--
-        <p> Need a browser that can support HTML5 </p>
+        <video controls src="../video/dogfishshark.mp4#t=00.5,00:41" type="video/mp4">
+        <figcaption>Discovery</figcaption>
+        <!--Need a browser that can support HTML5>
      -->
         <p><em>To play this video clip, your browser needs to support HTML5</em></p>
-        
+        </p>
     </video>
-</p>
+    </div>
+</body>
 
-<!-- Survey input for information -->
+
+<!-- Survey input for information (Noah) -->
 
 <fieldset class="required">
-    <legend>*Required to Continue</legend>
+    <legend>Please fill out this form</legend>
 
 <div class="info">
   <div class="column" style="background-color:#457091ff;">
-    <p>If you are a minor, please ask a parent for help filling out this form.</p>
+    <p>If you are a minor, please ask a parent for help.</p>
 
     <br><label for="nameBox">Name</label>
-    <input type="text" name="viewerName" value="" id="nameBox" required placeholder="First and Last Name" /></br>
+    <input type="text" name="viewerName" value="" id="nameBox" placeholder="First and Last Name" /></br>
 
     <br><label name="emailBox">Email</label>
-    <input type="email" name="viewerEmail" id="emailBox" required placeholder="customer@email.com" pattern="[A-Za-z]{3}" /></br>
+    <input type="email" name="viewerEmail" id="emailBox"  placeholder="customer@email.com" pattern="[A-Za-z]{3}" /></br>
 
     <br><label for="phoneBox">Phone</label>
     <input type="tel" name="viewerPhone" id="phoneBox" placeholder="(###) ###-####" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" /></br>
@@ -71,15 +79,16 @@
     <br><label for="addressbox">Address</label>
     <input name="custZip" id="addressbox" placeholder="Enter Address Here" /></br>
 
+    <!-- Div for each column of buttons (Michael) -->
     <div id="buttons">
-    <a herf="../html/midnight.html"><input type="submit" value="Submit" /></a>
+    <a href="../html/midnight.html"><input type="submit" value="Submit" /></a>
     </div>
 
   </div>
 
   <div class="column" style="background-color:#457091ff;">
-    <p>*Are you a:</p>
-        <br><input value="Student" name="person" type="radio" id="" required>
+    <p>Are you a:</p>
+        <br><input value="Student" name="person" type="radio" id="">
         <label for="student">Student</label></br>
         <br><input name="person" value="Teacher" type="radio">
         <label for="">Teacher</label></br>
@@ -93,7 +102,7 @@
 
   <div class="column" style="background-color:#457091ff;">
     <div>
-    <br><p>*Where are you?</p></br>  
+    <br><p>Where are you?</p></br>  
         <br><input value="School" name="use" type="radio" id="">
         <label for="school">School</label></br>
 
@@ -108,5 +117,8 @@
     <textarea name="comments" id="" placeholder="I like your fun shark facts! :D"></textarea>
 </fieldset>
 
-</body>
+<!--Footer (Noah)-->
+    <footer>
+       Deep Layer Sharks and Facts &copy; &#8226; DeepLayerSharks@gmail.com &#8226; 415-813-0866 <img src="../png/shark.png" >
+    </footer>
 </html>

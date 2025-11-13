@@ -25,6 +25,19 @@ header img {
 }
 
 p {
-    letter-spacing: 1em;
-    line-height: 0.5em;
+    text-align: center;
+    letter-spacing: 0.35em;
+    line-height: 0.9em;
+    font-size: 1.4em;
+}
+
+div img {
+    width: 40em;
+    height: auto;
+}
+
+footer img {
+    max-width: 3em;
+    height: 1em;
+    text-align: center;
 }

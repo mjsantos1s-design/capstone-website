@@ -48,3 +48,11 @@ figure#arrow {
    height: 3em;
    padding-right: 2em;
 }
+
+/* Footer */
+
+footer img {
+    max-width: 3em;
+    height: 1em;
+    text-align: center;
+}

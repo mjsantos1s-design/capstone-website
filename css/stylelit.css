@@ -75,6 +75,7 @@ footer img {
     filter: brightness(0) saturate(100%) invert(18%) sepia(35%) saturate(2758%) hue-rotate(193deg) brightness(88%) contrast(90%);
 }
 
+/* Images */
 div {
     line-height: 16em;
 }
@@ -108,6 +109,7 @@ div {
 .pt img {
     border: 0.5em solid rgb(37, 85, 121);
     margin-left: 2em;
+    margin-top: 3em;
     width: 42%;
     height: 10em;
 
