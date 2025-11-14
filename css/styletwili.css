@@ -31,14 +31,15 @@ body {
    background-color: rgb(35, 81, 116);
    border-left: 3px solid rgba(49, 104, 146, 0.7);
    border-right: 3px solid rgba(49, 104, 146, 0.7);
-   min-height: 100%;  
    margin: 0px auto;
-   min-width: 420px;
-   max-width: 1120px;  
+   min-height: 1030px;
+   max-width: 960px;  
    width: 100%;
    font-size: 1.4em;
    font-family: Urbanist;
 }
+
+/* Form */
 
 .column {
   float: left;
@@ -97,12 +98,22 @@ ul li{
   color: rgb(180, 220, 247);
 }
 
+.surveyform {
+  position: relative;
+  bottom: 0;
+  margin-top: 3em;
+}
+
+/* Footer */
+
 footer {
   background-color: #457091ff;
   color: rgb(180, 220, 247);
   font-size: 1.1em;
   padding: 10px 0px;
   text-align: center;
+  top: 50em;
+  bottom: 0;
 }
 
 
@@ -111,22 +122,58 @@ footer img {
   filter: sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(1.5) contrast(1.2);
 }
 
-.bsp {
-  position: left;
-  height: 50px;
-  height: 100px;
-}
+/* Videos */
 
 .bs video {
-  position: left;
+  position: absolute;
+  left: 34em;
   display: block;
-  width: 320px;
-  height: 180px;
+  width: 20em;
+  height: 11em;
 }
 
 .vd video {
-  position: right;
+  position: absolute;
   display: block;
-  width: 320px;
-  height: 180px;
+  width: 20em;
+  height: 11em;
+  left: 66em;
+  top: 18em;
 }
+
+/* Corresponding paragraphs */
+
+.bsp {
+  position: relative;
+  left: -15.5em;
+  top: 9.5em;
+  text-align: center;
+  line-height: 0.5em;
+  font-size: 1em;
+}
+
+
+.vdp {
+  position: relative;
+  text-align: center;
+  line-height: 0.5em;
+  width: 25em;
+  left: 33em;
+  top: 2em;
+  font-size: 1em;
+}
+
+/* Figcaption */
+
+.noaa {
+  position: relative;
+  top: -0.8em;
+  left: 9.5em;
+}
+
+.discovery {
+  position: relative;
+  left: 43em;
+  top: -19em;
+}
+

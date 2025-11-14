@@ -87,7 +87,7 @@ div {
 
 .bh img {
     border: 0.5em solid rgb(37, 85, 121);
-    margin-left: 2em;
+    margin-left: 1em;
     width: 42%;
     height: 12em;
 }
@@ -95,6 +95,7 @@ div {
 .bh p {
     width: 100%;
     height: auto;
+    margin-left: -1em;
     margin-top: 1em;
     font-size: 1.2em;
     text-align: center;
@@ -108,7 +109,7 @@ div {
 
 .pt img {
     border: 0.5em solid rgb(37, 85, 121);
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: 3em;
     width: 42%;
     height: 10em;
@@ -121,5 +122,34 @@ div {
     font-size: 1.2em;
     text-align: center;
     line-height: 1em;
+    margin-left: -1em;
 }
 
+
+@media only screen and (max-width: 880px) {
+
+    img {
+        break-after: always;
+        width: 50%;
+    }
+
+    p {
+        margin: 0px 0px 0px 0px;
+    }
+
+    header img {
+        width: 100%;
+    }
+    
+    body {
+        background-size: auto;
+        border: 0;
+    }
+
+    figure img {
+        max-width: 30%;
+        max-height: 100%;
+    }
+
+
+}

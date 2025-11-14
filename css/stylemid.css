@@ -14,6 +14,7 @@ html {
 }
 
 /* Page Body Styles */
+
 body {
     color: rgb(140, 255, 190);
    font-family: Bahiana;
@@ -36,8 +37,45 @@ div img {
     height: auto;
 }
 
+header li {
+    background-color: rgb(110, 21, 21);
+    }
+
+header li a:visited{
+    color: rgb(140, 255, 190);
+    }
+
+/* Footer */
+footer {
+  background-color: rgb(16, 41, 60);
+  color: rgb(140, 255, 190);
+  font-size: 1.1em;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+
 footer img {
     max-width: 3em;
     height: 1em;
     text-align: center;
+    background-color: transparent;
+    filter: sepia(100%) hue-rotate(100deg) saturate(200%);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    p {
+        font-size: 0.8em;
+    }
+
+    div img {
+        height: 60%;
+        width: 60%;
+    }
+
+    header li a {
+        max-width: 30%;
+        max-height: 80%;
+    }
 }

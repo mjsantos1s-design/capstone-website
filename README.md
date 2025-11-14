@@ -1,5 +1,4 @@
 # Project Assignment: HTML & CSS Capstone
-(delete everything in parenthesis after you have finished(including this line 😜))
 
 ## Group Members
 #### - Michael Santos
@@ -38,9 +37,17 @@ Midnight Level: Goblin, Greenland, Cookiecutter
 - Font Color: sunlit #193D5A, Twilight #B7DCF7, Midnight #8CFFBE
 - Contrast Ratio: 6.99, 7.42, 8.73
 - Paragraph Font Size: 1.4em
-- Header Font Size (include values for h1-h6, add more font sizes for different sections of your webpage (such as navigation, footer, article, etc.))
+- Header Font Size 1.4em
 
 ## CSS Ruleset 
+
+All: There an arrow on each page, all of them move you to another page when clicked and the arrow is normal at thje top to bring back to the last page. The content in normally in the middle of the screen. There text near by the image or video of the shark that talks about the shark a bit.
+
+Sunlit: There is the only arrow at the bottom that takes you to a new website instead of the one before. Background Color: for Sunlit is #B5D2E8. Font Color: For Sunlit is #193D5A. Text Background Color: for Sunlit is #e4f3ff. only are with img borders and background borders. Has Pelagic thresher, bonnethead sharks
+
+Twilight:  Background Color: for Twilight is #1d415d. Font Color: For Twilight is #B7DCF7. Text Background Color: for Twilight is #235174. Has videos instead of images of sharks. Has Basking, Viper dogfish sharks. Has from at bottom, with the submit button being the way down to the next webpage.
+
+Midnight:  Background Color: for Midnight is #10293c. Font Color: For Midnight is #8CFFBE. Text Background doesn't exist here. arrow a different font. line spacing and latter spacing are here too. Has Goblin, Greenland, and Cookiecutter sharks.
 
 (Include every class name, what it applies to, and what its purpose is)
 
