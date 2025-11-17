@@ -10,6 +10,7 @@ HTML & CSS Capstone
 */
 
 /* This sets a background color */
+
 html {
     background-color: rgb(29, 65, 93);
 }
@@ -24,7 +25,9 @@ header img {
 body {
     color: rgb(180, 220, 247);
     /* Sets font for body */
-    font-family: url(../font/Borel-Regular.ttf)
+    font-family: Borel;
+    margin: 0;
+    max-width: 1200px;
 }
 
 body {
@@ -32,7 +35,7 @@ body {
    border-left: 3px solid rgba(49, 104, 146, 0.7);
    border-right: 3px solid rgba(49, 104, 146, 0.7);
    margin: 0px auto;
-   min-height: 1030px;
+   min-width: 1030px;
    max-width: 960px;  
    width: 100%;
    font-size: 1.4em;
@@ -125,20 +128,21 @@ footer img {
 /* Videos */
 
 .bs video {
-  position: absolute;
-  left: 34em;
+  position: relative;
+  left: 6.5em;
+  top: 11.5em;
   display: block;
   width: 20em;
   height: 11em;
 }
 
 .vd video {
-  position: absolute;
+  position: relative;
   display: block;
   width: 20em;
   height: 11em;
-  left: 66em;
-  top: 18em;
+  left: 36.5em;
+  bottom: 18.5em;
 }
 
 /* Corresponding paragraphs */
@@ -158,9 +162,17 @@ footer img {
   text-align: center;
   line-height: 0.5em;
   width: 25em;
-  left: 33em;
-  top: 2em;
+  left: 34em;
+  top: 1.4em;
   font-size: 1em;
+}
+
+figcaption.discovery {
+  left: 44.5em;
+}
+
+figcaption.noaa {
+  left: 12em;
 }
 
 /* Figcaption */
@@ -177,3 +189,82 @@ footer img {
   top: -19em;
 }
 
+@media only screen and (min-width: 881px) {
+
+    header img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+
+      img {
+      break-after: always;
+      width: 50%;
+    }
+
+    header img {
+        width: fill;
+    }
+    
+    body {
+        background-size: fill;
+        border: 0;
+    }
+
+    figure img {
+        max-width: 30%;
+        max-height: 100%;
+    }
+
+      p {
+      font-size: 0.8em;
+    }
+
+    div img {
+        height: 60%;
+        width: 60%;
+    }
+
+    header li a {
+        max-width: 30%;
+        max-height: 80%;
+    }
+
+    footer {
+      max-height: fit-content;
+    }
+
+    fieldset {
+      width: 50%;
+      font-size: 80%;
+    }
+
+    textarea {
+      width: 80%;
+    }
+
+    footer {
+      position: bottom;
+      max-height: 6em;
+    }
+
+    .vdp {
+    position: relative;
+    text-align: center;
+    line-height: 0.5em;
+    width: 25em;
+    font-size: 1em;
+    left: 5em
+    }
+
+    .vdp video {
+
+    }
+
+
+    body {
+    max-width: 900px;
+    }
+}
