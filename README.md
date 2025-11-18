@@ -48,9 +48,3 @@ Sunlit: There is the only arrow at the bottom that takes you to a new website in
 Twilight:  Background Color: for Twilight is #1d415d. Font Color: For Twilight is #B7DCF7. Text Background Color: for Twilight is #235174. Has videos instead of images of sharks. Has Basking, Viper dogfish sharks. Has from at bottom, with the submit button being the way down to the next webpage.
 
 Midnight:  Background Color: for Midnight is #10293c. Font Color: For Midnight is #8CFFBE. Text Background doesn't exist here. arrow a different font. line spacing and latter spacing are here too. Has Goblin, Greenland, and Cookiecutter sharks.
-
-(Include every class name, what it applies to, and what its purpose is)
-
-(You do not need to include every ruleset, only the ones that use class names (REMEBER you don not use id names for CSS))
-
-- (EXAMPLE: ClassName: for list elements that need to be aligned left of an image: font size 1rem, color #FFFFFF, bullet style, alignment: left etc. )

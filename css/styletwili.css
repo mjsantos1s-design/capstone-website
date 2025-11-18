@@ -181,6 +181,7 @@ figcaption.noaa {
   position: relative;
   top: -0.8em;
   left: 9.5em;
+  max-width: 10em;
 }
 
 .discovery {
@@ -199,6 +200,10 @@ figcaption.noaa {
 
 @media only screen and (max-width: 880px) {
 
+  html {
+    max-height: 150em;
+  }
+
       img {
       break-after: always;
       width: 50%;
@@ -206,9 +211,11 @@ figcaption.noaa {
 
     header img {
         width: fill;
+        max-width: 880px;
     }
     
     body {
+      background-color: rgb(35, 81, 116);
         background-size: fill;
         border: 0;
     }
@@ -246,8 +253,10 @@ figcaption.noaa {
     }
 
     footer {
+      text-align: left;
       position: bottom;
       max-height: 6em;
+      max-width: 880px;
     }
 
     .vdp {
@@ -256,15 +265,46 @@ figcaption.noaa {
     line-height: 0.5em;
     width: 25em;
     font-size: 1em;
-    left: 5em
+    left: 5em;
+    margin-bottom: -5em;
     }
 
     .vdp video {
-
+    position: absolute;
+    display: block;
+    width: 0em;
+    height: 0em;
+    left: 0em;
+    bottom: 0;
+    margin-left: 40em;
     }
 
+    .vdp p {
+    margin-top: 30em;
+    }
+
+    .vd video {
+    margin-left: 0em;
+    left: 7.5em;
+    width: 40%;
+    height: auto;
+    }
+
+    figcaption.discovery {
+      left: 15.5em;
+    }
 
     body {
     max-width: 900px;
     }
+
+  .bs {
+  width: 100%;
+  height: auto;
+  }
+
+  .vdp {grid-area: 2 / span 1;}
+  .vd {grid-area: 2 / span 1;}
+  .bsp {grid-area: 2 / span 1;}
+  .bs {grid-area: 2 / span 1;}
 }
