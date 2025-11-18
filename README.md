@@ -48,3 +48,24 @@ Sunlit: There is the only arrow at the bottom that takes you to a new website in
 Twilight:  Background Color: for Twilight is #1d415d. Font Color: For Twilight is #B7DCF7. Text Background Color: for Twilight is #235174. Has videos instead of images of sharks. Has Basking, Viper dogfish sharks. Has from at bottom, with the submit button being the way down to the next webpage.
 
 Midnight:  Background Color: for Midnight is #10293c. Font Color: For Midnight is #8CFFBE. Text Background doesn't exist here. arrow a different font. line spacing and latter spacing are here too. Has Goblin, Greenland, and Cookiecutter sharks.
+
+
+## Image Sources
+
+Bonnethead Shark - Eric Kilby (bonnet1)
+
+Bonnethead Shark - Valerie Everett (bonnet2)
+
+Thresher Shark - Petter Lindgren (thresher1)
+
+Thresher Shark - Dan Schofield (thresher2)
+
+Basking Shark Video - NOAA Sanctuaries (baskingshark)
+
+Dogfish Shark Video - Discovery (dogfishshark)
+
+Goblin Shark - Peter Halasz (goblin)
+
+Greenland Shark - Hemming1952 (greenland)
+
+Cookie Cutter Shark - Public Domain (cookie)
