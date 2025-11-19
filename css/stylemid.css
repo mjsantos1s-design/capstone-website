@@ -41,8 +41,15 @@ header li {
     background-color: rgb(25, 148, 132);
     }
 
-header li a:visited{
+header li{
     color: rgb(140, 255, 190);
+    }
+
+    img.Basking {
+        height: 0.01%;
+        width: 0.01%;
+        text-align: center;
+        position: absolute;
     }
 
 /* Footer */
@@ -62,6 +69,8 @@ footer img {
     background-color: transparent;
     filter: sepia(100%) hue-rotate(100deg) saturate(200%);
 }
+
+
 
 @media only screen and (max-width: 1000px) {
 

@@ -139,6 +139,7 @@ div {
 
     header img {
         width: 100%;
+        height: auto;
     }
     
     body {
@@ -147,8 +148,26 @@ div {
     }
 
     figure img {
-        max-width: 30%;
-        max-height: 100%;
+        width: 17%;
+        height: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    figure img {
+        width: 25%;
+    }
+
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    header {
+        height: 160px;
     }
 
 
